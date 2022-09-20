@@ -28,9 +28,8 @@ public class MassiveSPTV21 {
         int min = arr1[1];
         System.out.print("[");
         for(int i = 0;i<arr1.length;i++){
-            System.out.printf("%2d,",arr1[i]);
+            System.out.printf("%2d",arr1[i]);
             sum += arr1[i];
-            System.out.println();
             if (arr1[i]>max) {
                 max = arr1[i];
             }{
@@ -64,7 +63,7 @@ public class MassiveSPTV21 {
                 if(max < arr2[1][j]) max = arr2[i][j];
                 sum += arr2[i][j];
             }
-            System.out.println();
+            System.out.println("| lineSum = ");
             
         }
         System.out.println("max = "+ max);
